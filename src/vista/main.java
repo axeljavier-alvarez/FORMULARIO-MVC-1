@@ -16,8 +16,14 @@ public class main {
     public static void main(String[] args) {
         // TODO code application logic here
         
-        frm_cliente frm = new frm_cliente();
+        // FORMULARIO CLIENTE
+        /* frm_cliente frm = new frm_cliente();
+        frm.show(); */
+        
+        /// FORMULARIO EMPLEADO
+        frm_empleado frm = new frm_empleado();
         frm.show();
+       
     }
     
 }
